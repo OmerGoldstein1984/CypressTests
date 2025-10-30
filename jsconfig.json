@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "checkJs": true,
+    "baseUrl": ".",
+    "types": ["cypress", "node"]
+  },
+  "include": [
+    "automationexercise/**/*.js",
+    "cypress/**/*.js",
+    "cypress.config.js"
+  ]
+}
