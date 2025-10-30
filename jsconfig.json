@@ -4,11 +4,14 @@
     "module": "commonjs",
     "checkJs": true,
     "baseUrl": ".",
-    "types": ["cypress", "node"]
+    "types": ["cypress", "node"],
+    "paths": {
+      "@pages/*": ["cypress/support/PageObjects/*"]
+    }
   },
   "include": [
     "automationexercise/**/*.js",
     "cypress/**/*.js",
-    "cypress.config.js"
+    "cypress.config.cjs"
   ]
 }
