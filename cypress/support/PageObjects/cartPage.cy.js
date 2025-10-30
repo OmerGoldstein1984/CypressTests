@@ -1,7 +1,7 @@
 
 class CartPage {
 	// Locators
-	proceedToCheckoutButton = 'text=Proceed To Checkout';
+	proceedToCheckoutButton = 'Proceed To Checkout';
 	cartTable = '#cart_info_table';
 	itemCell = '.cart_menu .image';
 	descriptionCell = '.cart_menu .description';
